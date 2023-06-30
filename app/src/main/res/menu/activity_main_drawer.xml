@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_generar_pedidos"
+            android:icon="@drawable/ic_menu_agregar_producto"
+            android:title="@string/title_generar_pedidos" />
+        <item
+            android:id="@+id/nav_generar_boleta"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="@string/title_generar_boleta" />
+        <item
+            android:id="@+id/nav_ver_pedidos"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="@string/title_ver_pedidos" />
+        <item
+            android:id="@+id/nav_editar_platos"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/title_editar_platos" />
+    </group>
+</menu>

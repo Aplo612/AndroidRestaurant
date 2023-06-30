@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Prueba1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle"> Restaurante@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="plato_id">Id: %s</string>
+    <string name="plato_nombre">Nombre: %s</string>
+    <string name="plato_precio">Precio: %s</string>
+    <string name="plato_descripcion">Descripción: %s</string>
+    <string name="plato_detalle">Detalle: %s</string>
+    <string name="plato_menu">Menú del Día: %s</string>
+
+
+    <string name="menu_Ver_Pedidos">Ver Pedidos</string>
+    <string name="menu_Generar_Pedidos">Generar Pedidos</string>
+    <string name="menu_Generar_Boleta">Generar Boleta</string>
+    <string name="menu_Editar_Pedidos">Editar Pedidos</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_Confirm">Password Confirm</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_ver_pedidos">"Ver Pedidos</string>
+    <string name="title_generar_pedidos">"Generar Pedidos</string>
+    <string name="title_generar_boleta">"Generar Boleta</string>
+    <string name="title_editar_platos">"Editar Platos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">BIENVENIDO AL RESTAURANTE!!!!</string>
+</resources>

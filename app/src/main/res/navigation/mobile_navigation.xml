@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_generar_pedidos">
+
+    <activity
+        android:id="@+id/nav_editar_platos"
+        android:name="com.example.prueba1.ui.editar_platos.EditarPlatosActivity"
+        android:label="@string/menu_Ver_Pedidos"
+        tools:layout="@layout/activity_editar_platos" />
+    <activity
+        android:id="@+id/nav_ver_pedidos"
+        android:name="com.example.prueba1.ui.ver_pedidos.VerPedidosActivity"
+        android:label="@string/menu_Ver_Pedidos"
+        tools:layout="@layout/activity_ver_pedidos" />
+
+    <fragment
+        android:id="@+id/nav_generar_pedidos"
+        android:name="com.example.prueba1.ui.generar_pedidos.GenerarPedidosFragment"
+        android:label="@string/menu_Generar_Pedidos"
+        tools:layout="@layout/fragment_generar_pedidos" />
+
+    <activity
+        android:id="@+id/nav_generar_boleta"
+        android:name="com.example.prueba1.ui.generar_boleta.GenerarBoletaActivity"
+        android:label="@string/menu_Generar_Boleta"
+        tools:layout="@layout/activity_editar_platos" />
+
+</navigation>
